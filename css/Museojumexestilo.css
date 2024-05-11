@@ -1,0 +1,238 @@
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.navbar {
+	background-color: white;
+	margin-top: 30px;
+}
+
+.nav-item {
+	background-color: #EDECDF;
+	margin: 0px 2px 0px 2px;
+}
+
+.nav-item-cont {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.nav-item-inicio {
+	border-radius: 5px 0px 0px 5px;
+	margin: 0px 2px 0px 45px;
+}
+
+.active-menu {
+	background-color: #C9A04F;
+	margin: 0px 2px 0px 2px;
+}
+
+.nav-link-active {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: white;
+	font-weight: bold;
+}
+
+.nav-link-active:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.link-nav-inicio {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav-inicio:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.link-nav {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+}
+
+.link-nav-cont {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: white;
+	font-weight: bold;
+}
+
+.link-nav-cont:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+	border-radius: 0px 5px 5px 0px;
+}
+
+form {
+    padding-top: 85px;
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-bottom: 85px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #EDECDF;
+    margin: 0 auto;
+    width: 80%;
+	
+}
+.input-group { 
+display: flex;
+	flex-direction: column;
+	text-align: left
+}
+
+.scroll-container h2 {
+    font-weight: 900;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+input,textarea {
+	padding: 17px 25px;
+	margin-bottom: 20px;
+	border: 2px solid #EDECDF; 
+	outline: none;
+}
+
+input::placeholder, text area::placeholder {   }
+.form-txt{
+	margin-bottom: 
+		30px;
+	display:flex;
+	justify-content: space-between;
+	text-align: center;	
+}
+
+.form-txt a {
+	font-size: 14px;
+	font-weight: 600px;
+	text-decoration: none;
+}
+section form .btn {
+    color: #FFFFFF;
+    background-color: #C9A04F;
+    padding-right: 31px;
+    padding-left: 31px;
+    font-weight: bold;
+}
+.container-bienvenida .texto-duda p {
+    font-size: xx-large;
+    font-weight: 900;
+}
+.container-bienvenida .texto-duda .texto-cont {
+    font-weight: normal;
+    font-size: x-large;
+}
+
+
+section form .btn:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    background-color: #C9A04F;
+    color: #FFFFFF;
+}
+
+.texto-duda {
+    text-align: center; /* Centra el texto */
+	margin-bottom: 20px;
+}
+
+.texto-duda h1 {
+    font-size: 24px; /* Tamaño de fuente del h1 */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.texto-duda h2 {
+    font-size: 18px; /* Tamaño de fuente del h2 */
+	margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilos para las columnas del footer */
+.columna {
+    width: 25%; /* Ancho de cada columna */
+    padding: 0 20px; /* Espaciado interno de cada columna */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.columna h3 {
+    font-size: 20px; /* Tamaño de fuente del título de la columna */
+}
+
+.columna p {
+    font-size: 16px; /* Tamaño de fuente del contenido de la columna */
+}
+
+.Nuestras-redes-sociales  {
+	text-align: center; /* Centra el texto */
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.scroll-container {
+    background-color: #C9A04F;
+}
+
+.piepag {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    background-color: #C9A04F;
+}
+
+.expo-actuales {
+    background-color: #EDECDF;
+}
+
+.container-bienvenida {
+    position: relative;
+    max-width: 70%;
+    margin: 40px auto 150px auto;
+    background-color: white;
+    text-align: left;
+}
+section .row .col-xl-3 {
+    margin-top: -100px;
+}
+.carousel-item .carousel-caption  {
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-top: 0px;
+    margin-bottom: -21px;
+    width: 780px;
+}
+section .scroll-container.expo-actuales img {
+    margin-top: 19px;
+    margin-right: 33px;
+}
+
+#carouselExampleIndicators1 .carousel-control-prev .carousel-control-prev-icon {
+
+}
+.container-bienvenida .scroll-container .row2.gallery-container {
+    padding-left: 0px;
+
+}

@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+}
+
+.navbar {
+	background-color: white;
+	margin-top: 30px;
+}
+
+.nav-item {
+	background-color: #EDECDF;
+	margin: 0px 2px 0px 2px;
+}
+
+.nav-item-cont {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.nav-item-inicio {
+	border-radius: 5px 0px 0px 5px;
+	margin: 0px 2px 0px 45px;
+}
+
+.active-menu {
+	background-color: #C9A04F;
+	margin: 0px 2px 0px 2px;
+}
+
+.nav-link-active {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: white;
+	font-weight: bold;
+}
+
+.nav-link-active:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.link-nav-inicio {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav-inicio:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.link-nav {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+}
+
+.link-nav-cont {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav-cont:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+	border-radius: 0px 5px 5px 0px;
+}
+
+
+.container-bienvenida {
+    position: relative;
+    max-width: 70%;
+    margin: 40px auto 150px auto;
+    background-color: white;
+    text-align: left;
+}
+.container-bienvenida h1 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
+.parrafos {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.img-nos {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.accordion {
+    background-color: #EDECDF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.active, .accordion:hover {
+  background-color: #C9A04F;
+	color: white;
+}
+
+.panel {
+  padding: 20px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 20px;
+	color: aquamarine;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.row .col-lg-6.col-xl-8 .fundacion {
+    margin-top: 30px;
+}
+
+.container-bienvenida .content {
+    position: absolute;
+    bottom: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+	padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+	margin-right: 1.7%;
+}
+
+.content {
+    margin-top: 230px;
+}
+
+div .content h4 {
+	text-decoration: 2px solid underline;
+    text-underline-offset: 3px;
+    font-weight: 900;
+}
+
+div .content p {
+    padding-right: 0px;
+    font-size: medium;
+    text-align: justify;
+}
+
+
+.container-bienvenida .row .col-lg-3.offset-xl-1 {
+    background-color: #EDECDF;
+    padding-left: 13px;
+    padding-right: 32px;
+}
+
+.row .col-lg-3.offset-xl-1 h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 60px;
+    padding-left: 17px;
+}
+
+.col-lg-3.offset-xl-1 p i {
+    margin-left: 22px;
+    text-decoration: 2px solid underline;
+    text-underline-offset: 3px;
+    font-weight: 900;
+}
+
+.equipo {
+    background-color: #EDECDF;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+
+.card-equipo {
+    background-color: #C9A04F;
+    color: #FFFFFF;
+    padding-left: 15px;
+    height: 70px;
+    padding-top: 15px;
+}
+
+.card.equipo.offset-xl-1 .card-equipo h6 {
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.card.equipo.offset-xl-1 .card-equipo i {
+    font-size: small;
+}
+
+.piepag {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    background-color: #C9A04F;
+}

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 50px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.scroll-container {
+  max-height: 400px; /* Altura máxima del contenedor de desplazamiento */
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+}
+
+.gallery-container {
+  max-width: 800px; /* Ancho máximo deseado para la galería */
+  margin: 0 auto; /* Centra el contenedor */
+  padding: 20px; /* Ajusta el espacio interno según sea necesario */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-container .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-container .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    max-width: 100%; /* La galería ocupará todo el ancho disponible en dispositivos más pequeños */
+    padding: 10px; /* Ajusta el espacio interno según sea necesario */
+  }
+  .gallery-container .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-container .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+section {
+  margin: 70px;
+}
+section.scroll-container img {
+  max-width: 100%; /* Ancho máximo del 100% del contenedor padre */
+  max-height: 100px; /* Altura máxima de 200px */
+}
+section:nth-child(2) {
+  padding: 50px; /* Ajustar el relleno según sea necesario para agregar más espacio */
+}
+.footer img {
+    width: 32px; /* Ancho de 32px */
+    height: 32px; /* Altura de 32px */

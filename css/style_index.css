@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar {
+	background-color: white;
+	margin-top: 30px;
+}
+
+.nav-item {
+	background-color: #EDECDF;
+	margin: 0px 2px 0px 2px;
+}
+
+.nav-item-cont {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.active-menu {
+	background-color: #C9A04F;
+	border-radius: 5px 0px 0px 5px;
+	margin: 0px 2px 0px 45px;
+}
+
+.nav-link-active {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: white;
+	font-weight: bold;
+}
+
+.nav-link-active:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.link-nav {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+}
+
+.link-nav-cont {
+	display: block;
+	padding: 0.5rem 5rem;
+	color: black;
+	font-weight: bold;
+}
+
+.link-nav-cont:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #C9A04F;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.container-bienvenida {
+    position: relative;
+    max-width: 70%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 220px;
+    background-color: white;
+}
+
+.container-bienvenida .content {
+  position: absolute;
+  bottom: 1;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20PX 50PX 20PX 50px;
+}
+
+.content {
+    margin-top: 364px;
+}
+
+div .content h1 {
+    font-weight: 900;
+}
+
+div .content p {
+    padding-right: 0px;
+    font-size: medium;
+    text-align: justify;
+}
+
+.container-bienvenida .expo {
+    margin-top: 140px;
+}
+
+.container-bienvenida .expo h2 {
+    font-weight: 900;
+}
+
+div.scroll-container {
+    background-color: #EDECDF;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+div.scroll-container img {
+  padding: 30px;
+}
+
+.accordion {
+    background-color: #EDECDF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.active, .accordion:hover {
+  background-color: #C9A04F;
+	color: white;
+}
+
+.panel {
+  padding: 20px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 20px;
+	color: aquamarine;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.parrafos {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+
+
+
+.piepag {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    background-color: #C9A04F;
+}
